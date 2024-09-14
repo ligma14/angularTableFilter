@@ -1,0 +1,77 @@
+.table-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 25%;
+  }
+  
+  .button-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .button-row button, .button-row a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-row mat-icon {
+    margin-right: 4px;
+  }
+  
+  .mat-column-actions {
+    width: 300px;
+    text-align: center;
+  }
+
+  .file-input-container {
+    margin-bottom: 20px;
+  }
+  
+  .file-input-container button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .file-input-container mat-icon {
+    margin-right: 8px;
+  }
+
+.search-and-import {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mat-mdc-form-field {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.file-input-container {
+  flex-shrink: 0;
+}
+
+.mat-icon-button {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  padding: 0;
+}
+
+.mat-icon-button .mat-icon {
+  font-size: 18px;
+  line-height: 18px;
+  width: 18px;
+  height: 18px;
+}

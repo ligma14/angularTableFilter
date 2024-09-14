@@ -1,27 +1,66 @@
-# AngularTableFilter
+# Angular Table Filter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+This project is an Angular application that provides a data table with filtering capabilities. Users can filter the table data by specifying bib numbers or ranges, and can also import data from a CSV file.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Display data in a table format with sorting capabilities.
+- Filter data by bib numbers or ranges using a custom pipe.
+- Import data from a CSV file.
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Prerequisites
 
-## Build
+- Node.js and npm installed on your machine.
+- Angular CLI installed globally (`npm install -g @angular/cli`).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd angular-table-filter
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Install the dependencies:
+   ```sh
+   npm install
+   ```
 
-## Running end-to-end tests
+### Running the Application
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Start the development server:
+   ```sh
+   ng serve
+   ```
 
-## Further help
+2. Open your browser and navigate to `http://localhost:4200/`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Building the Application
+
+To build the project, run:
+    ```sh
+    ng build
+    ```
+The build artifacts will be stored in the `dist/` directory.
+
+### Running Unit Tests
+
+To execute the unit tests via [Karma](https://karma-runner.github.io), run:
+```sh
+ng test
+```
+
+### Running End-to-End Tests
+
+To execute the end-to-end tests via a platform of your choice, run:
+```sh
+ng e2e
+```
+
+To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+
+
+
